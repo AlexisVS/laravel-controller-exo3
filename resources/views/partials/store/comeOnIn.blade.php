@@ -4,52 +4,52 @@
             <div class="col-xl-9 mx-auto">
                 <div class="cta-inner text-center rounded">
                     <h2 class="section-heading mb-5">
-                        <span class="section-heading-upper">{{$store->titleA}}</span>
-                        <span class="section-heading-lower">{{$store->titleB}}</span>
+                        <span class="section-heading-upper">{{$stores[0]->text}}</span>
+                        <span class="section-heading-lower">{{$stores[1]->text}}</span>
                     </h2>
                     <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                         <li class="list-unstyled-item list-hours-item d-flex">
-                            {{$store->ul1li1}}
-                            <span class="ml-auto">{{$store->ul1li1A}}</span>
+                            {{$stores[2]->text}}
+                            <span class="ml-auto">{{$stores[3]->text}}</span>
                         </li>
                         <li class="list-unstyled-item list-hours-item d-flex">
-                            {{$store->ul1li2}}
-                            <span class="ml-auto">{{$store->ul1li2A}}</span>
+                            {{$stores[4]->text}}
+                            <span class="ml-auto">{{$stores[5]->text}}</span>
                         </li>
                         <li class="list-unstyled-item list-hours-item d-flex">
-                            {{$store->ul1li3}}
-                            <span class="ml-auto">{{$store->ul1li3A}}</span>
+                            {{$stores[6]->text}}
+                            <span class="ml-auto">{{$stores[7]->text}}</span>
                         </li>
                         <li class="list-unstyled-item list-hours-item d-flex">
-                            {{$store->ul1li4}}
-                            <span class="ml-auto">{{$store->ul1li4A}}</span>
+                            {{$stores[8]->text}}
+                            <span class="ml-auto">{{$stores[9]->text}}</span>
                         </li>
                         <li class="list-unstyled-item list-hours-item d-flex">
-                            {{$store->ul1li5}}
-                            <span class="ml-auto">{{$store->ul1li5A}}</span>
+                            {{$stores[10]->text}}
+                            <span class="ml-auto">{{$stores[11]->text}}</span>
                         </li>
                         <li class="list-unstyled-item list-hours-item d-flex">
-                            {{$store->ul1li6}}
-                            <span class="ml-auto">{{$store->ul1li6A}}</span>
+                            {{$stores[12]->text}}
+                            <span class="ml-auto">{{$stores[13]->text}}</span>
                         </li>
                         <li class="list-unstyled-item list-hours-item d-flex">
-                            {{$store->ul1li7}}
-                            <span class="ml-auto">{{$store->ul1li7A}}</span>
+                            {{$stores[14]->text}}
+                            <span class="ml-auto">{{$stores[15]->text}}</span>
                         </li>
                     </ul>
                     <p class="address mb-5">
                         <em>
-                            <strong>{{$store->adressA}}</strong>
+                            <strong>{{$stores[16]->text}}</strong>
                             <br>
-                            {{$store->adressB}}
+                            {{$stores[17]->text}}
                         </em>
                     </p>
                     <p class="mb-0">
                         <small>
-                            <em>{{$store->numA}}</em>
+                            <em>{{$stores[18]->text}}</em>
                         </small>
                         <br>
-                        {{$store->numB}}
+                        {{$stores[19]->text}}
                     </p>
                 </div>
             </div>

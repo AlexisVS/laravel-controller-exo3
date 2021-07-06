@@ -1,9 +1,9 @@
 <?php
 
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\StoreController;
+use App\Http\Controllers\AboutsController;
+use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\StoresController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, "home"]);
 
-Route::get('/about', [AboutController::class, "about"]);
-Route::get('/product', [ProductController::class, "product"]);
-Route::get('/store', [StoreController::class, "store"]);
+Route::get('/about', [AboutsController::class, "about"]);
+
+Route::get('/product', [ProductsController::class, "product"]);
+
+Route::get('/store', [StoresController::class, "store"]);
